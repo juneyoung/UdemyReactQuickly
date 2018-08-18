@@ -19,5 +19,11 @@ $ npm start
 $ npm run generate
 ```
 
+## 특이
+- `yarn add style-loader`
+- `nuxt.config.js`(`webpack.config.js`의 `nuxt` 버전) 에 `style-loader` 추가
+- 핫빌드 안되는 거 같음
+
+
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
