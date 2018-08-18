@@ -33,6 +33,16 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+
+      /*
+      ** Add css Loader
+      */
+      config.module.rules.push({
+        test: /\.css$/,
+        loader: 'style-loader',
+        exclude: /(node_modules)/
+      })
+
     }
   }
 }
